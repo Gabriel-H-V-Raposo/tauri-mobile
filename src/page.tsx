@@ -2,7 +2,6 @@ import { AppSidebar } from "@/components/app-sidebar";
 import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator } from "@/components/ui/breadcrumb";
 import { Separator } from "@/components/ui/separator";
 import { SidebarInset, SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
-import { ModeToggle } from "./components/mode-toggle";
 
 export function Page() {
   return (
@@ -26,9 +25,7 @@ export function Page() {
             </Breadcrumb>
           </div>
         </header>
-        <div className="flex flex-1 flex-col gap-4 p-4 pt-0">
-          <ModeToggle />
-        </div>
+        <div className="flex flex-1 flex-col gap-4 p-4 pt-0"></div>
       </SidebarInset>
     </SidebarProvider>
   );
